@@ -1,0 +1,63 @@
+/* UpdateStudent.css */
+.update-student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: rgb(70, 63, 166); /* Your specified background color */
+    padding: 20px; /* Optional: Add some padding for spacing */
+  }
+  
+  .update-student-form {
+    width: 100%;
+    max-width: 600px; /* You can adjust the width as needed */
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for a subtle 3D effect */
+  }
+  
+  .update-student-form h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Space between title and form fields */
+  }
+  
+  .update-student-form .mb-2 {
+    margin-bottom: 15px; /* Space between form fields */
+  }
+  
+  .update-student-form .btn-success {
+    width: 100%; /* Full width for the submit button */
+    padding: 10px;
+    background-color: #28a745; /* Green button color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .update-student-form .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .update-student-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-student-form input:focus {
+    border-color: #28a745; /* Green border when focused */
+    outline: none;
+  }
+  
+  .update-student-form .form-check-label {
+    font-size: 14px; /* Adjust the label size */
+  }
+  
+  .update-student-form .form-check-input {
+    margin-right: 10px; /* Space between checkbox and label */
+  }
+  

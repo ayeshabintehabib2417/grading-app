@@ -1,0 +1,55 @@
+.student-record-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .student-record-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  .grades-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .grade-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .grade-key {
+    font-size: 1.1rem;
+    color: #495057;
+    margin-right: 8px;
+  }
+  
+  .grade-value {
+    font-size: 1.2rem;
+  }
+  
+  .pass {
+    color: green;
+  }
+  
+  .fail {
+    color: red;
+  }
+  
+  .loading-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
